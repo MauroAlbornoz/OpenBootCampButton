@@ -1,0 +1,42 @@
+
+button{
+    padding: 15px 20px;
+    font-size: 18px;
+    border-radius: 30px;
+    border: 1px solid #808080;
+}
+
+
+
+
+button::before{
+    content: "Pasa por encima";
+}
+
+
+
+
+button:hover::before{
+    content: "Pasa por encima";
+    display: none;
+}
+
+
+
+button:hover::after{
+    content: "!Hecho¡";
+    color: #ffffff;
+    background-color: #00ff00;
+    padding: 15px 20px;
+}
+
+
+
+button:hover{
+    color: #ffffff;
+    background-color: #00ff00;
+}
+
+
+
+
